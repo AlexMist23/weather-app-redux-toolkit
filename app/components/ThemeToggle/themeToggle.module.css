@@ -4,11 +4,10 @@
 }
 
 .button {
-  .dark{
+  .dark {
     color: #000;
-
-  };
-  .light{
-    color:#fff
+  }
+  .light {
+    color: #fff;
   }
 }
