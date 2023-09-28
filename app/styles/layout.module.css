@@ -46,12 +46,16 @@
   font-size: calc(10px + 2vmin);
 }
 
+.nav-theme {
+  align-self: flex-end;
+}
+
 .link:hover {
   text-decoration: underline;
 }
 
 .link {
-  color: #542c48;
+  color: var(--text-color-lm);
 }
 
 .link.active {

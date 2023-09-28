@@ -6,6 +6,7 @@ import { usePathname } from 'next/navigation'
 
 /* Instruments */
 import styles from '../styles/layout.module.css'
+import { ThemeToggle } from './ThemeToggle/ThemeToggle'
 
 export const Nav = () => {
   const pathname = usePathname()
@@ -26,6 +27,7 @@ export const Nav = () => {
       >
         Verify
       </Link>
+      <ThemeToggle/>
     </nav>
   )
 }
