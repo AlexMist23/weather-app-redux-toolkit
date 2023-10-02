@@ -1,18 +1,9 @@
-:root {
-  --background-color-light: #d3d3d3;
-  --background-color-dark: #333333;
-  --text-color-light: #313131;
-  --text-color-dark: #dfdfdf;
-}
-
 html,
 body {
   min-height: 100vh;
   padding: 0;
   margin: 0;
   font-family: system-ui, sans-serif;
-  background-color: var(--background-color);
-  color: var(--background-color);
 }
 
 a {

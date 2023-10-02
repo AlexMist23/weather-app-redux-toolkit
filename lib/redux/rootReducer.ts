@@ -1,7 +1,7 @@
 /* Instruments */
-import { counterSlice, themeSlice } from './slices'
+import { counterSlice, darkThemeSlice } from "./slices";
 
 export const reducer = {
   counter: counterSlice.reducer,
-  theme: themeSlice.reducer,
-}
+  darkTheme: darkThemeSlice.reducer,
+};
