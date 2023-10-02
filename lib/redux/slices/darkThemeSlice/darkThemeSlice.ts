@@ -11,7 +11,7 @@ export const darkThemeSlice = createSlice({
   // The `reducers` field lets us define reducers and generate associated actions
   reducers: {
     toggle: (state) => {
-      state.isActive = state.isActive = true ? false : true;
+      state.isActive = state.isActive == true ? false : true;
     },
   },
 });
